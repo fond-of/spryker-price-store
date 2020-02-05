@@ -6,5 +6,4 @@ use Spryker\Zed\Price\Business\PriceFacadeInterface as SprykerPriceFacadeInterfa
 
 interface PriceStoreFacadeInterface extends SprykerPriceFacadeInterface
 {
-
 }

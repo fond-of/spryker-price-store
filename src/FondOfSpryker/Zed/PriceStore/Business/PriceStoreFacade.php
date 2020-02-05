@@ -2,7 +2,6 @@
 
 namespace FondOfSpryker\Zed\PriceStore\Business;
 
-use FondOfSpryker\Zed\PriceStore\Business\PriceStoreFacadeInterface;
 use Spryker\Zed\Price\Business\PriceFacade as SprykerPriceFacade;
 
 /**
@@ -11,7 +10,7 @@ use Spryker\Zed\Price\Business\PriceFacade as SprykerPriceFacade;
 class PriceStoreFacade extends SprykerPriceFacade implements PriceStoreFacadeInterface
 {
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      *
      * @api
      *

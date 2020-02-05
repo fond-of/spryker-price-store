@@ -16,5 +16,4 @@ class PriceStoreFactory extends SprykerPriceFactory
     {
         return parent::getConfig();
     }
-
 }

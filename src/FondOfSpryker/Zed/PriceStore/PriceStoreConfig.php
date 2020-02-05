@@ -13,5 +13,4 @@ class PriceStoreConfig extends SprykerPriceConfig
     {
         return $this->getSharedConfig()->getDefaultPriceMode();
     }
-
 }

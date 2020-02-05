@@ -3,7 +3,6 @@
 namespace FondOfSpryker\Shared\PriceStore;
 
 use Spryker\Shared\Config\Config;
-use FondOfSpryker\Shared\PriceStore\PriceStoreConstants;
 use Spryker\Shared\Price\PriceConfig as SprykerPriceConfig;
 
 class PriceStoreConfig extends SprykerPriceConfig
@@ -19,5 +18,4 @@ class PriceStoreConfig extends SprykerPriceConfig
 
         return static::PRICE_MODE_GROSS;
     }
-
 }
